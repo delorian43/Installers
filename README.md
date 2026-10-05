@@ -1,18 +1,24 @@
 # DLO FIT installers
 
-This repository publishes Android installer APKs built from the [DLO_FIT_APP project](https://github.com/delorian43/DLO_FIT_APP).
+This repository publishes public Android APK installers built from the [DLO_FIT_APP project](https://github.com/delorian43/DLO_FIT_APP).
 
-## Current published installers
+## Latest published installers
 
 | Platform | Version | Download |
 | --- | --- | --- |
-| Android phone | 0.88 | [DLO_FIT_v0.88.apk](https://github.com/delorian43/Installers/releases/download/v0.88/DLO_FIT_v0.88.apk) |
-| Wear OS watch | 0.3.2 | [DLO_FIT_Wear_v0.3.2.apk](https://github.com/delorian43/Installers/releases/download/v0.88/DLO_FIT_Wear_v0.3.2.apk) |
+| Android phone | 0.89 | [DLO_FIT_v0.89.apk](https://github.com/delorian43/Installers/releases/download/v0.89/DLO_FIT_v0.89.apk) |
+| Wear OS watch | 0.3.3 | [DLO_FIT_Wear_v0.3.3.apk](https://github.com/delorian43/Installers/releases/download/v0.89/DLO_FIT_Wear_v0.3.3.apk) |
 
-Both APKs are attached to the [v0.88 release](https://github.com/delorian43/Installers/releases/tag/v0.88). See the release notes and SHA-256 checksums before installing. These debug-signed APKs use a different certificate from v0.86/v0.3.1 and cannot update those installations in place.
+Both APKs are attached to the [v0.89 release](https://github.com/delorian43/Installers/releases/tag/v0.89). Check its release notes and SHA-256 checksums before installing. These debug-signed builds are compatible with the corrected v0.88 Firebase-fix installers and the phone v0.86 / Wear OS v0.3.1 builds.
+
+## Previous releases
+
+- [v0.88 Firebase fix — phone 0.88 / Wear OS 0.3.2](https://github.com/delorian43/Installers/releases/tag/v0.88-firebase-fix)
+- [v0.88 original — legacy signing certificate](https://github.com/delorian43/Installers/releases/tag/v0.88) — cannot be upgraded in place to the corrected releases; uninstalling removes local app data.
+- [v0.86 — phone 0.86 / Wear OS 0.3.1](https://github.com/delorian43/Installers/releases/tag/v0.86)
 
 ## Source project
 
 - [DLO_FIT_APP repository](https://github.com/delorian43/DLO_FIT_APP)
-- [Android phone installer source folder](https://github.com/delorian43/DLO_FIT_APP/tree/main/phone/install)
+- [Phone installer source folder](https://github.com/delorian43/DLO_FIT_APP/tree/main/phone/install)
 - [Wear OS installer source folder](https://github.com/delorian43/DLO_FIT_APP/tree/main/wear-os/install)
