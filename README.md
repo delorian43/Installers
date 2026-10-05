@@ -9,13 +9,11 @@ This repository publishes public Android APK installers built from the [DLO_FIT_
 | Android phone | 0.89 | [DLO_FIT_v0.89.apk](https://github.com/delorian43/Installers/releases/download/v0.89/DLO_FIT_v0.89.apk) |
 | Wear OS watch | 0.3.3 | [DLO_FIT_Wear_v0.3.3.apk](https://github.com/delorian43/Installers/releases/download/v0.89/DLO_FIT_Wear_v0.3.3.apk) |
 
-Both APKs are attached to the [v0.89 release](https://github.com/delorian43/Installers/releases/tag/v0.89). Check its release notes and SHA-256 checksums before installing. These debug-signed builds are compatible with the corrected v0.88 Firebase-fix installers and the phone v0.86 / Wear OS v0.3.1 builds.
+Both APKs are attached to the [v0.89 release](https://github.com/delorian43/Installers/releases/tag/v0.89). Check its release notes and SHA-256 checksums before installing. These debug-signed builds are compatible with the corrected v0.88 Firebase-fix installers.
 
-## Previous releases
+## Previous release
 
 - [v0.88 Firebase fix — phone 0.88 / Wear OS 0.3.2](https://github.com/delorian43/Installers/releases/tag/v0.88-firebase-fix)
-- [v0.88 original — legacy signing certificate](https://github.com/delorian43/Installers/releases/tag/v0.88) — cannot be upgraded in place to the corrected releases; uninstalling removes local app data.
-- [v0.86 — phone 0.86 / Wear OS 0.3.1](https://github.com/delorian43/Installers/releases/tag/v0.86)
 
 ## Source project
 
