@@ -6,15 +6,17 @@ This repository publishes public Android APK installers built from the [DLO_FIT_
 
 | Platform | Version | Download |
 | --- | --- | --- |
-| Android phone | 0.92.9 | [DLO_FIT_v0.92.9.apk](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_v0.92.9.apk) |
-| Wear OS watch | 0.3.9 | [DLO_FIT_Wear_v0.3.9.apk](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_Wear_v0.3.9.apk) |
+| Android phone | 0.93 | [DLO_FIT_v0.93.apk](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_v0.93.apk) |
+| Wear OS watch | 0.3.10 | [DLO_FIT_Wear_v0.3.10.apk](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_Wear_v0.3.10.apk) |
 
 The APKs are stored with Git LFS to keep large binary files out of Git history. Both are debug-signed with the Firebase-registered key (SHA-1 `4aaf8abc8df00a0baaa02accc14f98c493f9de7c`). Check the SHA-256 before installing:
 
-- Phone `DLO_FIT_v0.92.9.apk`: `f61e89dd6d806e86b7db31e4900b7da297ab6611b58914b7a7635eba47c80bf4`
-- Wear OS `DLO_FIT_Wear_v0.3.9.apk`: `c47af344ab417afd67a9d62863739beca9b2b8dca82d4bf76a98a404899190de`
+- Phone `DLO_FIT_v0.93.apk`: `1e7eab47c6aad1ea4dd2a7bb9ec3218530cc08487b6985cbeadd3fbd533b435c`
+- Wear OS `DLO_FIT_Wear_v0.3.10.apk`: `d3494a3da3891d4d3160af981df6bd44ed967d66c95edfcbcf438717624ffba4`
 
-These builds include retryable phone/watch event delivery, watch workout recovery after process interruption, watch step counting across sensor resets, and a saved watch language setting. Source commit: [0e7b16c](https://github.com/delorian43/DLO_FIT_APP/commit/0e7b16c74247641ad8a4a7a1dbcbaef5ddbc4576) on `release-0.92`.
+These builds include the localized current-day calendar marker on phone and offline start from a valid cached plan on Wear OS, along with retryable event delivery, watch workout recovery, step-counter reset handling and a saved watch language setting. Source commit: [a764162](https://github.com/delorian43/DLO_FIT_APP/commit/a764162b58afa6431b4f52e3caae3c2cd2d9988f) on `release-0.92`.
+
+Previous installers remain available in this repository: [phone 0.92.9](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_v0.92.9.apk) and [Wear OS 0.3.9](https://github.com/delorian43/Installers/raw/refs/heads/main/DLO_FIT_Wear_v0.3.9.apk).
 
 ## Previous public release
 
